@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    -webkit-column-width: 320px;
+    -moz-column-width: 320px;
+    column-width: 320px;
+    width: 100%;
+    padding: 0 10px;
+    max-width: 1100px;
+    margin: 20px auto;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+
+.columns figure {
+    display: inline-block;
+    background: #fefefe;
+    border: 2px solid #fafafa;
+    margin: 0 2px 15px;
+    break-inside: avoid; /* check */
+    -webkit-column-break-inside: avoid;
+    width: 100%;
+}
+
+.columns figure img {
+    width: 100%;
+    height: auto;
+
+}
